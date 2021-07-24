@@ -93,7 +93,7 @@ ${getCommentFooter()}
 
   const repoOwner = github.context.repo.owner.replace(/\./g, '-');
   const repoName = github.context.repo.repo.replace(/\./g, '-');
-  const url = `${repoOwner}-${repoName}-${job}-pr-${prNumber}.surge.sh`;
+  const url = `${repoName}-pr-${prNumber}.surge.sh`;
 
   core.setOutput('preview_url', url);
 
