@@ -1,6 +1,6 @@
 name: '🔂 Surge PR Preview'
 description: 'Preview website in surge.sh for every pull request'
-author: 'afc163'
+author: 'snapcodereview'
 inputs:
   surge_token:
     description: 'surge.sh token'
